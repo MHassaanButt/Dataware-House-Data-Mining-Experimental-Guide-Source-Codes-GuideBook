@@ -7,7 +7,7 @@ I wrote a proper complete guidebook for beginners the pdf file which explain eve
 
 I also upladed the source code of Apriori, Kmeans, KNN and other algorithms implemented in C# using Visual Studio and MY SQL Server Management Studio.
 
-Also uploaded the video demo and link is here: 
+Also uploaded the video demo and link is here: https://youtu.be/2_XDxQKODsA
 
 If you still face any problem in implemention of algorithms feel fry to contact me.
 Email: hassaanbutt67@gmail.com
