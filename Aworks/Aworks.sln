@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Aworks", "Aworks\Aworks.dwproj", "{2E970758-2A6F-4765-A7BC-946B418318FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E970758-2A6F-4765-A7BC-946B418318FC}.Development|Default.ActiveCfg = Development
+		{2E970758-2A6F-4765-A7BC-946B418318FC}.Development|Default.Build.0 = Development
+		{2E970758-2A6F-4765-A7BC-946B418318FC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
