@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Frequent Flight", "Frequent Flight\Frequent Flight.dwproj", "{BB6E160E-2B78-41F6-AF13-73C9AB01EAE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB6E160E-2B78-41F6-AF13-73C9AB01EAE6}.Development|Default.ActiveCfg = Development
+		{BB6E160E-2B78-41F6-AF13-73C9AB01EAE6}.Development|Default.Build.0 = Development
+		{BB6E160E-2B78-41F6-AF13-73C9AB01EAE6}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
