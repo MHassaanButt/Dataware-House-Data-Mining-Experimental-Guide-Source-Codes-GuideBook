@@ -1,0 +1,485 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2d2a7b9-bb7c-459c-9dcb-f9adb95ef5e0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Car Model</ID>
+  <Name>Car Model</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_car model</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f641c911-37ed-4471-8d87-33ed9ba07861">
+    <DataSourceViewID>KNN Algo</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="00c3e7fb-8f51-4263-a994-27b136f05510">
+      <ID>Curb Wgt</ID>
+      <Name>Curb Wgt</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c64df2f-6100-4bf8-8c8b-59af81284ce2">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1a52971-b616-4030-8ef9-02741a125d73">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>curb_wgt</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="93830d23-a84c-40db-9976-de67716d972e">
+      <ID>Engine S</ID>
+      <Name>Engine S</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="43a045a4-9feb-4575-bcc7-9552563c6b6a">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="098f3695-8ceb-4de5-90da-1416623f2e04">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>engine_s</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a2000c62-4be0-4137-b5ac-7bec41449f29">
+      <ID>Fuel Cap</ID>
+      <Name>Fuel Cap</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d59602e3-1bae-4840-88ba-3991ca39da3c">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="410b0d96-b73a-4d74-a80d-929cdf8ec809">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>fuel_cap</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="bb1fb3b2-a366-4b30-bfe8-d658d6632aa2">
+      <ID>Horsepow</ID>
+      <Name>Horsepow</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="45f73eb9-4e43-43fe-bb93-29629da6b14c">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="227a0506-34f0-433d-a9f0-9a38e2b877fe">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>horsepow</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="1a73ff2e-8a09-40a5-80f9-dcc412ac44a8">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <IsKey>true</IsKey>
+      <Type>Double</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a04b8f1-c741-4c75-8568-93d56a6012e6">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2fd0dc2-d6cd-4d44-a13a-63862814f08e">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3b381832-32a4-4801-be8d-e2e9bee2c39f">
+      <ID>Length</ID>
+      <Name>Length</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fb6087ec-c2df-435d-a699-28338d684763">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5364dc4b-eae0-4a91-ab8e-572b84917e3e">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>length</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5315872d-62ef-4f00-9796-d8f6bddc3be2">
+      <ID>Lnsales</ID>
+      <Name>Lnsales</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e71ac2a9-a86d-46de-afa7-d8fd590e1a0e">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3086e25b-eac6-4019-984a-880beffbb848">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>lnsales</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a1687524-e1aa-42a1-a3a6-0d81c33146ac">
+      <ID>Manufact</ID>
+      <Name>Manufact</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="19d68b30-cb08-4238-bded-6ee65bdcdc2a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b053d7d1-ac43-44fa-83b5-0dfa098c6495">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>manufact</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="85cc8c3d-03a1-4eac-87c5-51f06e1dd75d">
+      <ID>Model</ID>
+      <Name>Model</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c8d4d0c-d752-4651-81f1-9c921eb96dde">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a7b63b26-364e-4c82-9820-2f5923710d83">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>model</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8b3cab06-a994-42fc-ac68-25ac42309dc2">
+      <ID>Mpg</ID>
+      <Name>Mpg</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="19e3b070-b8ae-4553-9049-be7d02943ad5">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e917adae-e963-48b8-8c6d-4039f8de6d39">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>mpg</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c538d767-0974-4c9d-82ed-3d8477188f56">
+      <ID>Partition</ID>
+      <Name>Partition</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f7c82b4-172d-4400-b7b6-17c62740851e">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad715f7f-55f7-49e7-a977-69a09dd9fde1">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>partition</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5eec3985-babe-4995-96cf-26a9fb4a184b">
+      <ID>Price</ID>
+      <Name>Price</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1bb2bb5-20d4-4d66-b4e9-ad6164a581d1">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2cdfee29-71a6-473d-9812-cfa598f76451">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>price</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fb1b2718-7b21-4049-bfac-1c0fbe415377">
+      <ID>Resale</ID>
+      <Name>Resale</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97c5f61f-174f-4b72-8fad-32489ea07efb">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f217573b-5267-42cf-a32d-160ed30085fc">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>resale</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="871b3a46-0916-4ab1-b729-b402d8bbd246">
+      <ID>Sales</ID>
+      <Name>Sales</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7e5c91cd-756e-4d4a-95da-3a8fcfcbab7b">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d632f8d-404c-4647-9e5b-232131b0ba8f">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>sales</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3c729a9d-4b55-489c-b579-43229a40a9ae">
+      <ID>Type</ID>
+      <Name>Type</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="875861bd-e913-4714-b8f1-e15caebc817b">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e1e8792-4ad0-4e91-995b-958c6bc0a0ed">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4e74b44c-d365-43cf-8f3c-e723e9901bcc">
+      <ID>Wheelbas</ID>
+      <Name>Wheelbas</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7f56cfef-3e6b-4f16-bc40-b998219032b5">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e6cb765-a51a-4879-a807-0828a1ca8135">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>wheelbas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="95edbc5f-65c8-4006-ad1f-5ff158c700a8">
+      <ID>Width</ID>
+      <Name>Width</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8bf222f-6d32-4b03-92a6-e0fb78648b85">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05dd4dbd-b3d0-40de-b69d-331a8d66b65e">
+            <TableID>dbo_car_x0020_model</TableID>
+            <ColumnID>width</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="cb22a553-62d6-4a45-80e2-f09d2b02bc3c">
+      <ID>Car Model</ID>
+      <Name>Car Model</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Decision_Trees</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="5459282f-d101-4847-bc4d-c506cd54659d">
+          <ID>Curb Wgt</ID>
+          <Name>Curb Wgt</Name>
+          <SourceColumnID>Curb Wgt</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="ac57f839-0a1f-4dc3-8182-78cac09d6a3e">
+          <ID>Engine S</ID>
+          <Name>Engine S</Name>
+          <SourceColumnID>Engine S</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="c345ef93-29b2-4ce4-95d1-92f795fad19d">
+          <ID>Fuel Cap</ID>
+          <Name>Fuel Cap</Name>
+          <SourceColumnID>Fuel Cap</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="01179880-1243-4904-805f-b2a9408f0405">
+          <ID>Horsepow</ID>
+          <Name>Horsepow</Name>
+          <SourceColumnID>Horsepow</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="91d27a03-71f2-4259-be78-ab892ead31db">
+          <ID>ID</ID>
+          <Name>ID</Name>
+          <SourceColumnID>ID</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="ee3d2f1d-bad8-4220-a552-99c7d427a817">
+          <ID>Length</ID>
+          <Name>Length</Name>
+          <SourceColumnID>Length</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="eb23513f-58e0-422b-bf23-21398e246971">
+          <ID>Lnsales</ID>
+          <Name>Lnsales</Name>
+          <SourceColumnID>Lnsales</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="9330aa51-67d5-4789-b408-4064a06b3d0f">
+          <ID>Manufact</ID>
+          <Name>Manufact</Name>
+          <SourceColumnID>Manufact</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="fc56e6f5-d5af-4d3f-9ea6-215eea2be0a4">
+          <ID>Model</ID>
+          <Name>Model</Name>
+          <SourceColumnID>Model</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="10111e8b-7282-49aa-b271-27358f18e36d">
+          <ID>Mpg</ID>
+          <Name>Mpg</Name>
+          <SourceColumnID>Mpg</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="3910793d-5198-479c-8d45-3f6fcb94d742">
+          <ID>Partition</ID>
+          <Name>Partition</Name>
+          <SourceColumnID>Partition</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="dee74682-1794-48f4-9f4c-032a3220db40">
+          <ID>Price</ID>
+          <Name>Price</Name>
+          <SourceColumnID>Price</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="891b7597-cc36-4b8d-a4fd-8ca21744e0a1">
+          <ID>Resale</ID>
+          <Name>Resale</Name>
+          <SourceColumnID>Resale</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="12613954-6b63-4c70-95f5-9991fcbeb6e8">
+          <ID>Sales</ID>
+          <Name>Sales</Name>
+          <SourceColumnID>Sales</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="59cbe5ec-cf76-412a-b817-31f082197c92">
+          <ID>Type</ID>
+          <Name>Type</Name>
+          <SourceColumnID>Type</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="32d13e98-a01d-458c-9c33-4f2b417a9d5f">
+          <ID>Wheelbas</ID>
+          <Name>Wheelbas</Name>
+          <SourceColumnID>Wheelbas</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="970daabd-6d85-4c9c-910a-a0cc565d3eb1">
+          <ID>Width</ID>
+          <Name>Width</Name>
+          <SourceColumnID>Width</SourceColumnID>
+          <Usage>Predict</Usage>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>

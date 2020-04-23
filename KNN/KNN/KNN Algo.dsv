@@ -1,0 +1,93 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="75264558-2c7e-45f5-9a5f-5e1d90f93b9d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>KNN Algo</ID>
+  <Name>KNN Algo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>KNN Algo</DataSourceID>
+  <Schema>
+    <xs:schema id="KNN_x0020_Algo" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="KNN_x0020_Algo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4cedc23d-f4b1-499e-a50c-f07efed29341">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_car_x0020_model" msprop:design-time-name="87cda2e3-73dc-4ff3-8dcf-caea6ab5d9ff" msprop:DbTableName="car model" msprop:FriendlyName="car model" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msprop:design-time-name="a5d41140-3288-4ff9-821a-24f72994b4d6" msprop:DbColumnName="ID" msprop:FriendlyName="ID" type="xs:double" minOccurs="0" />
+                  <xs:element name="manufact" msprop:design-time-name="2a95791c-eaea-4944-8ca6-709890f01026" msprop:DbColumnName="manufact" msprop:FriendlyName="manufact" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="model" msprop:design-time-name="09a0a1ab-be22-4f1a-a9db-b2dd1aa818a1" msprop:DbColumnName="model" msprop:FriendlyName="model" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sales" msprop:design-time-name="7856e9e9-da8c-4aa4-a482-27f746646714" msprop:DbColumnName="sales" msprop:FriendlyName="sales" type="xs:double" minOccurs="0" />
+                  <xs:element name="resale" msprop:design-time-name="d0536be7-04dd-481a-a21f-3aa860e82b71" msprop:DbColumnName="resale" msprop:FriendlyName="resale" type="xs:double" minOccurs="0" />
+                  <xs:element name="type" msprop:design-time-name="756f72d9-97e7-47d0-889a-c6bbdf2454d5" msprop:DbColumnName="type" msprop:FriendlyName="type" type="xs:double" minOccurs="0" />
+                  <xs:element name="price" msprop:design-time-name="6936573a-01ce-41ab-9268-e83a03f571f2" msprop:DbColumnName="price" msprop:FriendlyName="price" type="xs:double" minOccurs="0" />
+                  <xs:element name="engine_s" msprop:design-time-name="09dc7077-c041-4582-b12c-39907e992776" msprop:DbColumnName="engine_s" msprop:FriendlyName="engine_s" type="xs:double" minOccurs="0" />
+                  <xs:element name="horsepow" msprop:design-time-name="8a1901e9-e073-46de-9685-01dd3bb80b26" msprop:DbColumnName="horsepow" msprop:FriendlyName="horsepow" type="xs:double" minOccurs="0" />
+                  <xs:element name="wheelbas" msprop:design-time-name="c60d4653-e9b7-41a9-b663-66c9e6063632" msprop:DbColumnName="wheelbas" msprop:FriendlyName="wheelbas" type="xs:double" minOccurs="0" />
+                  <xs:element name="width" msprop:design-time-name="33e51455-e895-4a8e-be6f-00b7a4c09f2a" msprop:DbColumnName="width" msprop:FriendlyName="width" type="xs:double" minOccurs="0" />
+                  <xs:element name="length" msprop:design-time-name="71b840c0-a4a6-45a7-a428-ba0b54eb0c85" msprop:DbColumnName="length" msprop:FriendlyName="length" type="xs:double" minOccurs="0" />
+                  <xs:element name="curb_wgt" msprop:design-time-name="483401f7-e443-4db1-8bef-4b8d140f9c90" msprop:DbColumnName="curb_wgt" msprop:FriendlyName="curb_wgt" type="xs:double" minOccurs="0" />
+                  <xs:element name="fuel_cap" msprop:design-time-name="20113a33-d434-4438-b22d-42aa9aaf1618" msprop:DbColumnName="fuel_cap" msprop:FriendlyName="fuel_cap" type="xs:double" minOccurs="0" />
+                  <xs:element name="mpg" msprop:design-time-name="4ea14909-e8f3-4954-a278-7b2460a3d958" msprop:DbColumnName="mpg" msprop:FriendlyName="mpg" type="xs:double" minOccurs="0" />
+                  <xs:element name="lnsales" msprop:design-time-name="cd0ad908-fbc1-4bf1-91ee-2e477cc5a3cd" msprop:DbColumnName="lnsales" msprop:FriendlyName="lnsales" type="xs:double" minOccurs="0" />
+                  <xs:element name="partition" msprop:design-time-name="1fa3c68c-20cd-4abf-86af-fe356ec849db" msprop:DbColumnName="partition" msprop:FriendlyName="partition" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <KNN_x0020_Algo xmlns="" />
+  </Schema>
+</DataSourceView>
