@@ -1,0 +1,448 @@
+<?xml version="1.0"?><DTSConfiguration><DTSConfigurationHeading><DTSConfigurationFileInfo GeneratedBy="DESKTOP-G7L7041\hassa" GeneratedFromPackageName="alldemo" GeneratedFromPackageID="{4B6A7157-CE20-4D5C-81AC-382CFFB08FFB}" GeneratedDate="12/13/2018 1:02:52 PM"/></DTSConfigurationHeading><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[ConnectionString]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[FileUsageType]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[Name]" ValueType="String"><ConfiguredValue>CreateProspectTableTerr1.sql</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CreateProspectTableTerr1.sql].Properties[Scope]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[AlwaysCheckForRowDelimiters]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[CodePage]" ValueType="Int32"><ConfiguredValue>1252</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[ColumnNamesInFirstDataRow]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[ConnectionString]" ValueType="String"><ConfiguredValue>E:\数据仓库数据集\Data Files\Customers.txt</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[DataRowsToSkip]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[FileUsageType]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[Format]" ValueType="String"><ConfiguredValue>Delimited</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[HeaderRowDelimiter]" ValueType="String"><ConfiguredValue>
+</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[HeaderRowsToSkip]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[Name]" ValueType="String"><ConfiguredValue>Customers</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[RowDelimiter]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[Scope]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[TextQualifier]" ValueType="String"><ConfiguredValue>&lt;none&gt;</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[Unicode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[AlwaysCheckForRowDelimiters]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[CodePage]" ValueType="Int32"><ConfiguredValue>1252</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[ColumnNamesInFirstDataRow]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[ConnectionString]" ValueType="String"><ConfiguredValue>E:\数据仓库数据集\Data Files\CustomersWithInvalidTerritoryID.txt</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[DataRowsToSkip]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[FileUsageType]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[Format]" ValueType="String"><ConfiguredValue>Delimited</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[HeaderRowDelimiter]" ValueType="String"><ConfiguredValue>
+</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[HeaderRowsToSkip]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[Name]" ValueType="String"><ConfiguredValue>CustomersWithInvalidTerritoryID</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[RowDelimiter]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[Scope]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[TextQualifier]" ValueType="String"><ConfiguredValue>&lt;none&gt;</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[CustomersWithInvalidTerritoryID].Properties[Unicode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[ConnectionString]" ValueType="String"><ConfiguredValue>Data Source=.;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[InitialCatalog]" ValueType="String"><ConfiguredValue>AdventureWorks</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[Name]" ValueType="String"><ConfiguredValue>LocalHost.AdventureWorks</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[Password]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[RetainSameConnection]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[Scope]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[ServerName]" ValueType="String"><ConfiguredValue>.</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Connections[LocalHost.AdventureWorks].Properties[UserName]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[EvaluateAsExpression]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[Expression]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[IncludeInDebugDump]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[Name]" ValueType="String"><ConfiguredValue>vfileName</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[Namespace]" ValueType="String"><ConfiguredValue>User</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[RaiseChangedEvent]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[ReadOnly]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Variables[User::vfileName].Properties[Value]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CheckpointFileName]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CheckpointUsage]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreationDate]" ValueType="DateTime"><ConfiguredValue>12/13/2018 12:00:53 PM</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreatorComputerName]" ValueType="String"><ConfiguredValue>DESKTOP-G7L7041</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[CreatorName]" ValueType="String"><ConfiguredValue>DESKTOP-G7L7041\hassa</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DelayValidation]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DesignTimeProperties]" ValueType="String"><ConfiguredValue>&lt;?xml version="1.0"?&gt;
+&lt;!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.--&gt;
+&lt;!--If you manually edit this section and make a mistake, you can delete it. --&gt;
+&lt;!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.--&gt;
+&lt;Objects
+  Version="sql11"&gt;
+  &lt;!--Each node below will contain properties that do not affect runtime behavior.--&gt;
+  &lt;Package
+    design-time-name="package-diagram"&gt;
+    &lt;LayoutInfo&gt;
+      &lt;GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+        &lt;NodeLayout
+          Size="163,42"
+          Id="{}{8378F35D-A5CE-4DA0-9A31-37C02380E594}"
+          TopLeft="91,37" /&gt;
+        &lt;ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="359,195"
+          Size="359,238"
+          Id="{}{D0D7FBAE-98B8-46A8-8C5B-FEB01D41ADED}"
+          TopLeft="433,111" /&gt;
+        &lt;NodeLayout
+          Size="206,42"
+          Id="{}{61957D8C-8D8A-449A-A753-4EE1E51AFA33}"
+          TopLeft="520,417" /&gt;
+        &lt;EdgeLayout
+          Id="{}{AD828232-8EE0-4D29-B054-C491F6C2D813}"
+          TopLeft="612.5,349"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.5,68"
+              Start="0,0"
+              End="10.5,60.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,30" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,30"
+                    Point2="0,34"
+                    Point3="4,34" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="6.5,34" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="6.5,34"
+                    Point2="10.5,34"
+                    Point3="10.5,38" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="10.5,60.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;EdgeLabelCollection /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+      &lt;/GraphLayout&gt;
+    &lt;/LayoutInfo&gt;
+  &lt;/Package&gt;
+  &lt;TaskHost
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33}"&gt;
+    &lt;LayoutInfo&gt;
+      &lt;GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph"&gt;
+        &lt;NodeLayout
+          Size="151,42"
+          Id="30"
+          TopLeft="393,98" /&gt;
+        &lt;NodeLayout
+          Size="224,42"
+          Id="2"
+          TopLeft="364,191" /&gt;
+        &lt;EdgeLayout
+          Id="476"
+          TopLeft="472.25,140"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,43.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;EdgeLabelCollection /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;NodeLayout
+          Size="171,42"
+          Id="179"
+          TopLeft="141,301" /&gt;
+        &lt;NodeLayout
+          Size="171,42"
+          Id="238"
+          TopLeft="359,305" /&gt;
+        &lt;NodeLayout
+          Size="171,42"
+          Id="297"
+          TopLeft="592,307" /&gt;
+        &lt;NodeLayout
+          Size="171,42"
+          Id="356"
+          TopLeft="806,303" /&gt;
+        &lt;EdgeLayout
+          Id="477"
+          TopLeft="411.2,233"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-184.7,68"
+              Start="0,0"
+              End="-184.7,60.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,16.1608040201005" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,16.1608040201005"
+                    Point2="0,20.1608040201005"
+                    Point3="-4,20.1608040201005" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-180.7,20.1608040201005" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="-180.7,20.1608040201005"
+                    Point2="-184.7,20.1608040201005"
+                    Point3="-184.7,24.1608040201005" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-184.7,60.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="-116.21166015625,25.1608040201005,47.7233203125,11.3310546875"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;EdgeLayout
+          Id="479"
+          TopLeft="454.4,233"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.89999999999998,72"
+              Start="0,0"
+              End="-9.89999999999998,64.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,28.1581027667984" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,28.1581027667984"
+                    Point2="0,32.1581027667984"
+                    Point3="-4,32.1581027667984" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-5.89999999999998,32.1581027667984" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="-5.89999999999998,32.1581027667984"
+                    Point2="-9.89999999999998,32.1581027667984"
+                    Point3="-9.89999999999998,36.1581027667984" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-9.89999999999998,64.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="-28.93373046875,37.1581027667984,47.9674609375,11.43359375"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;EdgeLayout
+          Id="480"
+          TopLeft="497.6,233"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="179.9,74"
+              Start="0,0"
+              End="179.9,66.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,29.0513833992095" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,29.0513833992095"
+                    Point2="0,33.0513833992095"
+                    Point3="4,33.0513833992095" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="175.9,33.0513833992095" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="175.9,33.0513833992095"
+                    Point2="179.9,33.0513833992095"
+                    Point3="179.9,37.0513833992095" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="179.9,66.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="65.807578125,38.0513833992095,48.28484375,11.3310546875"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;EdgeLayout
+          Id="481"
+          TopLeft="540.8,233"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="350.7,70"
+              Start="0,0"
+              End="350.7,62.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,16.7537688442211" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,16.7537688442211"
+                    Point2="0,20.7537688442211"
+                    Point3="4,20.7537688442211" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="346.7,20.7537688442211" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="346.7,20.7537688442211"
+                    Point2="350.7,20.7537688442211"
+                    Point3="350.7,24.7537688442211" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="350.7,62.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="151.344296875,25.7537688442211,48.01140625,11.3310546875"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;NodeLayout
+          Size="172,42"
+          Id="132"
+          TopLeft="784,116" /&gt;
+        &lt;EdgeLayout
+          Id="474"
+          TopLeft="512,191"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="358,-33"
+              Start="0,0"
+              End="358,-25.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,-9.34042553191489" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,-9.34042553191489"
+                    Point2="0,-13.3404255319149"
+                    Point3="4,-13.3404255319149" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="354,-13.3404255319149" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="354,-13.3404255319149"
+                    Point2="358,-13.3404255319149"
+                    Point3="358,-17.3404255319149" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="358,-25.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="108.38609375,-8.34042553191489,141.2278125,11.658203125"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;NodeLayout
+          Size="154,42"
+          Id="123"
+          TopLeft="224,398" /&gt;
+        &lt;EdgeLayout
+          Id="478"
+          TopLeft="440,233"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-139,165"
+              Start="0,0"
+              End="-139,157.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,62.7021276595745" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,62.7021276595745"
+                    Point2="0,66.7021276595745"
+                    Point3="-4,66.7021276595745" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-135,66.7021276595745" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="-135,66.7021276595745"
+                    Point2="-139,66.7021276595745"
+                    Point3="-139,70.7021276595745" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-139,157.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;mssgm:EdgeLabel
+              BoundingBox="-93.54720703125,71.7021276595745,48.0944140625,11.43359375"
+              RelativePosition="Any" /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+        &lt;NodeLayout
+          Size="180,42"
+          Id="415"
+          TopLeft="200,502" /&gt;
+        &lt;EdgeLayout
+          Id="475"
+          TopLeft="301,440"&gt;
+          &lt;EdgeLayout.Curve&gt;
+            &lt;mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-11,62"
+              Start="0,0"
+              End="-11,54.5"&gt;
+              &lt;mssgle:Curve.Segments&gt;
+                &lt;mssgle:SegmentCollection
+                  Capacity="5"&gt;
+                  &lt;mssgle:LineSegment
+                    End="0,27" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="0,27"
+                    Point2="0,31"
+                    Point3="-4,31" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-7,31" /&gt;
+                  &lt;mssgle:CubicBezierSegment
+                    Point1="-7,31"
+                    Point2="-11,31"
+                    Point3="-11,35" /&gt;
+                  &lt;mssgle:LineSegment
+                    End="-11,54.5" /&gt;
+                &lt;/mssgle:SegmentCollection&gt;
+              &lt;/mssgle:Curve.Segments&gt;
+            &lt;/mssgle:Curve&gt;
+          &lt;/EdgeLayout.Curve&gt;
+          &lt;EdgeLayout.Labels&gt;
+            &lt;EdgeLabelCollection /&gt;
+          &lt;/EdgeLayout.Labels&gt;
+        &lt;/EdgeLayout&gt;
+      &lt;/GraphLayout&gt;
+    &lt;/LayoutInfo&gt;
+  &lt;/TaskHost&gt;
+  &lt;PipelineComponentMetadata
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33};179"&gt;
+    &lt;Properties&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;DataSourceViewID&lt;/Name&gt;
+      &lt;/Property&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;TableInfoObjectType&lt;/Name&gt;
+        &lt;Value
+          type="q2:string"&gt;Table&lt;/Value&gt;
+      &lt;/Property&gt;
+    &lt;/Properties&gt;
+  &lt;/PipelineComponentMetadata&gt;
+  &lt;PipelineComponentMetadata
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33};238"&gt;
+    &lt;Properties&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;DataSourceViewID&lt;/Name&gt;
+      &lt;/Property&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;TableInfoObjectType&lt;/Name&gt;
+        &lt;Value
+          type="q2:string"&gt;Table&lt;/Value&gt;
+      &lt;/Property&gt;
+    &lt;/Properties&gt;
+  &lt;/PipelineComponentMetadata&gt;
+  &lt;PipelineComponentMetadata
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33};297"&gt;
+    &lt;Properties&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;DataSourceViewID&lt;/Name&gt;
+      &lt;/Property&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;TableInfoObjectType&lt;/Name&gt;
+        &lt;Value
+          type="q2:string"&gt;Table&lt;/Value&gt;
+      &lt;/Property&gt;
+    &lt;/Properties&gt;
+  &lt;/PipelineComponentMetadata&gt;
+  &lt;PipelineComponentMetadata
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33};356"&gt;
+    &lt;Properties&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;DataSourceViewID&lt;/Name&gt;
+      &lt;/Property&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;TableInfoObjectType&lt;/Name&gt;
+        &lt;Value
+          type="q2:string"&gt;Table&lt;/Value&gt;
+      &lt;/Property&gt;
+    &lt;/Properties&gt;
+  &lt;/PipelineComponentMetadata&gt;
+  &lt;PipelineComponentMetadata
+    design-time-name="{61957D8C-8D8A-449A-A753-4EE1E51AFA33};415"&gt;
+    &lt;Properties&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;DataSourceViewID&lt;/Name&gt;
+      &lt;/Property&gt;
+      &lt;Property&gt;
+        &lt;Name&gt;TableInfoObjectType&lt;/Name&gt;
+        &lt;Value
+          type="q2:string"&gt;Table&lt;/Value&gt;
+      &lt;/Property&gt;
+    &lt;/Properties&gt;
+  &lt;/PipelineComponentMetadata&gt;
+&lt;/Objects&gt;</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Disable]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DisableEventHandlers]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DumpDescriptor]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[DumpOnAnyError]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[EnableDump]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[EncryptCheckpoints]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[FailPackageOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[FailParentOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForcedExecutionValue]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForceExecutionResult]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ForceExecutionValue]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[IgnoreConfigurationsOnLoad]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[InteractiveMode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[IsolationLevel]" ValueType="Int32"><ConfiguredValue>1048576</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[LoggingMode]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[MaxConcurrentExecutables]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[MaximumErrorCount]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[Name]" ValueType="String"><ConfiguredValue>alldemo</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[OfflineMode]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackagePassword]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackagePriorityClass]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[PackageType]" ValueType="Int32"><ConfiguredValue>5</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[ProtectionLevel]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SafeRecursiveProjectPackageExecution]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SaveCheckpoints]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SQLFolder]" ValueType="String"><ConfiguredValue>\</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[SuppressConfigurationWarnings]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[TransactionOption]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[UpdateObjects]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[UpdatePackage]" ValueType="Boolean"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionBuild]" ValueType="Int32"><ConfiguredValue>6</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionComments]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionMajor]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package.Properties[VersionMinor]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Conditional Split by TerritoryID].[Territory 1].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>Territory == 1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Conditional Split by TerritoryID].[Territory 2].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>Territory == 2</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Conditional Split by TerritoryID].[Territory 3].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>Territory == 3</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Conditional Split by TerritoryID].[Territory 4].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>Territory == 4</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Conditional Split by TerritoryID].[Territory 5].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>Territory == 5</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Derived Column].[Derived Column Input].[PostalCode].[FriendlyExpression]]" ValueType="String"><ConfiguredValue>LEN(PostalCode) == 4 ? "0" + PostalCode : PostalCode</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Data Cleaning and Loading.Properties[[Flat File Destination].[Header]]" ValueType="Empty"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[CollectionEnumerator]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[Description]" ValueType="String"><ConfiguredValue></ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[Directory]" ValueType="String"><ConfiguredValue>E:\数据仓库数据集\CreateTableSQLStatements</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[FileNameRetrieval]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[FileSpec]" ValueType="String"><ConfiguredValue>.SQL</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[Name]" ValueType="String"><ConfiguredValue>{73BF8371-EC12-4047-88E2-BF094ECAC091}</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.ForEachEnumerator.Properties[Recurse]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[DelayValidation]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[Description]" ValueType="String"><ConfiguredValue>Foreach Loop Container</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[Disable]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[DisableEventHandlers]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[FailPackageOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[FailParentOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[ForcedExecutionValue]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[ForceExecutionResult]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[ForceExecutionValue]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[IsolationLevel]" ValueType="Int32"><ConfiguredValue>1048576</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[LoggingMode]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[MaximumErrorCount]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[Name]" ValueType="String"><ConfiguredValue>Foreach Cycle Operation SQL Sentence</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence.Properties[TransactionOption]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[BypassPrepare]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[CodePage]" ValueType="UInt32"><ConfiguredValue>1252</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[Connection]" ValueType="String"><ConfiguredValue>LocalHost.AdventureWorks</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[DelayValidation]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[Description]" ValueType="String"><ConfiguredValue>Execute SQL Task</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[Disable]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[DisableEventHandlers]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[FailPackageOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[FailParentOnFailure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[ForcedExecutionValue]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[ForceExecutionResult]" ValueType="Int32"><ConfiguredValue>-1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[ForceExecutionValue]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[IsolationLevel]" ValueType="Int32"><ConfiguredValue>1048576</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[IsStoredProcedure]" ValueType="Boolean"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[LocaleID]" ValueType="Int32"><ConfiguredValue>1033</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[LoggingMode]" ValueType="Int32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[MaximumErrorCount]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[Name]" ValueType="String"><ConfiguredValue>Execute SQL Task</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[ResultSetType]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[SqlStatementSource]" ValueType="String"><ConfiguredValue>CreateProspectTableTerr1.sql</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[SqlStatementSourceType]" ValueType="Int32"><ConfiguredValue>2</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[TimeOut]" ValueType="UInt32"><ConfiguredValue>0</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[TransactionOption]" ValueType="Int32"><ConfiguredValue>1</ConfiguredValue></Configuration><Configuration ConfiguredType="Property" Path="\Package\Foreach Cycle Operation SQL Sentence\Execute SQL Task.Properties[TypeConversionMode]" ValueType="Int32"><ConfiguredValue>2</ConfiguredValue></Configuration></DTSConfiguration>
