@@ -1,0 +1,277 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="94b68503-ae05-4e3b-90b5-f7119d487fc8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BASKETS</ID>
+  <Name>BASKETS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_BASKETS</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8695caaf-e31f-49f8-a443-67a381370ee1">
+    <DataSourceViewID>Apriori</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="71c655ec-885b-4bc7-a975-b133ec0592ab">
+      <ID>Beer</ID>
+      <Name>Beer</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c2bbfaa9-f618-4ddc-b826-42eaec4a8141">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d409782d-2fdc-4312-8ee1-4d977253d85a">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>beer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0b76cba0-f9fb-4136-9913-1c73fde1dc78">
+      <ID>Cannedmeat</ID>
+      <Name>Cannedmeat</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="edd5dba0-41a1-409d-8bd1-425f0a9199ba">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2995ea7b-c7e3-484d-92f4-51de65fbe51b">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>cannedmeat</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="f506ad64-783b-4607-b6ee-aa1d8535a1c4">
+      <ID>Cannedveg</ID>
+      <Name>Cannedveg</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="75c56bcf-7544-4904-8e5e-c4cad98862e2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3592e8bb-fd70-44d4-8b4d-fb8e4b0121d1">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>cannedveg</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7a70d515-e761-4b94-a193-6287d5859ae0">
+      <ID>Cardid</ID>
+      <Name>Cardid</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="358b471b-701f-413a-ac40-6be64a05145b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="991442b8-6a62-40be-b8a8-4b552a5e33c9">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>cardid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5a30c4f3-4ac2-40bb-8b09-8c2a317117fb">
+      <ID>Confectionery</ID>
+      <Name>Confectionery</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="da4fbf02-05c2-4ed0-8eeb-badda24cfea3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fac1fd41-a1a6-43ad-9f59-da382275f057">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>confectionery</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3b70cf52-080e-478d-9ada-e4a630a76a50">
+      <ID>Dairy</ID>
+      <Name>Dairy</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2681c3e3-866d-4bb6-913d-8697a8cf112d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="886c583d-382a-433d-b3bf-7104b1d2d9be">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>dairy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="cfefbc9f-1dcc-4015-bce4-c363114a7a06">
+      <ID>Fish</ID>
+      <Name>Fish</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1fe62d50-2fb5-4a3c-9f5f-d96ca0621008">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="768a3f70-dcc0-4ba8-9baa-a895e0b15379">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>fish</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c65e7331-4fcd-4ea2-8458-401761443f06">
+      <ID>Freshmeat</ID>
+      <Name>Freshmeat</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="20a2b631-7de7-4138-a758-c16dfc041b0d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78301af5-977e-4af9-8f4b-1e941b248682">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>freshmeat</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="98a98dae-70ee-453a-b987-eee4250dcd10">
+      <ID>Frozenmeal</ID>
+      <Name>Frozenmeal</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8223be2d-0458-4724-8a15-70d5b6668937">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="12405fa0-5728-46f8-a302-68e0ac47bcb8">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>frozenmeal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="58cdccc8-b45d-4b94-ac20-92a5c6391b47">
+      <ID>Fruitveg</ID>
+      <Name>Fruitveg</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="130f4035-1d3a-42f8-be90-6dd7329113ca">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45b04bb7-cd80-4f66-8bba-b7af2c3179a9">
+            <TableID>dbo_BASKETS</TableID>
+            <ColumnID>fruitveg</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="5c9340f2-fdfa-4fad-8b44-8d9f848c9d05">
+      <ID>BASKETS</ID>
+      <Name>BASKETS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="5eea6f1f-8c5f-4fbd-824c-c41b49373fcd">
+          <ID>Beer</ID>
+          <Name>Beer</Name>
+          <SourceColumnID>Beer</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="f94d078f-71af-4381-90a9-3897c3303fcc">
+          <ID>Cannedmeat</ID>
+          <Name>Cannedmeat</Name>
+          <SourceColumnID>Cannedmeat</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="8b180145-c2ac-44ac-a596-ddf0f869e7de">
+          <ID>Cannedveg</ID>
+          <Name>Cannedveg</Name>
+          <SourceColumnID>Cannedveg</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="42183ba4-dc70-42f9-86be-32780b5ef5e7">
+          <ID>Cardid</ID>
+          <Name>Cardid</Name>
+          <SourceColumnID>Cardid</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="ce32cbaa-eca2-44dc-a74f-e09197778490">
+          <ID>Confectionery</ID>
+          <Name>Confectionery</Name>
+          <SourceColumnID>Confectionery</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="06d07796-130b-4cb1-b1a3-395dcf107318">
+          <ID>Dairy</ID>
+          <Name>Dairy</Name>
+          <SourceColumnID>Dairy</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="b34c4b28-817a-4422-9428-e850758edf05">
+          <ID>Fish</ID>
+          <Name>Fish</Name>
+          <SourceColumnID>Fish</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+        <Column dwd:design-time-name="1644584c-4c9d-4bf2-8bbd-66a1ecce7d4f">
+          <ID>Freshmeat</ID>
+          <Name>Freshmeat</Name>
+          <SourceColumnID>Freshmeat</SourceColumnID>
+          <Usage>Predict</Usage>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>

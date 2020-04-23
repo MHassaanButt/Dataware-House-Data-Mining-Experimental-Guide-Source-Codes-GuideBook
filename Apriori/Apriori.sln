@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Apriori", "Apriori\Apriori.dwproj", "{36A0CD9D-B7F8-43B2-9CC4-9C8D5F0E0798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A0CD9D-B7F8-43B2-9CC4-9C8D5F0E0798}.Development|Default.ActiveCfg = Development
+		{36A0CD9D-B7F8-43B2-9CC4-9C8D5F0E0798}.Development|Default.Build.0 = Development
+		{36A0CD9D-B7F8-43B2-9CC4-9C8D5F0E0798}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

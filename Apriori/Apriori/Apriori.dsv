@@ -1,0 +1,186 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dd47f3b0-c47c-4ee4-a25e-85614e55b4b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Apriori</ID>
+  <Name>Apriori</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Apriori</DataSourceID>
+  <Schema>
+    <xs:schema id="Apriori" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Apriori" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c2b7ff68-ef28-4b0a-9a86-7d0608db269e">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_BASKETS" msprop:design-time-name="ceee5451-e45e-4c67-b3f7-6f2391480dd1" msprop:DbTableName="BASKETS" msprop:FriendlyName="BASKETS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cardid" msprop:design-time-name="0e7f7658-9199-4a1a-b1c5-ac66084ddc32" msprop:DbColumnName="cardid" msprop:FriendlyName="cardid" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="value" msprop:design-time-name="5a66917d-1796-4180-a803-9007fce41539" msprop:DbColumnName="value" msprop:FriendlyName="value" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pmethod" msprop:design-time-name="fb534ab8-87fb-4985-afdc-00e5f46bde05" msprop:DbColumnName="pmethod" msprop:FriendlyName="pmethod" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="sex" msprop:design-time-name="631c2166-45cc-48ed-b607-0c35213fc009" msprop:DbColumnName="sex" msprop:FriendlyName="sex" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="homeown" msprop:design-time-name="e6437e00-64ea-437b-89eb-74be1da5459d" msprop:DbColumnName="homeown" msprop:FriendlyName="homeown" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="income" msprop:design-time-name="8d74eac3-63ca-46f9-9219-5bb1dc5f64ba" msprop:DbColumnName="income" msprop:FriendlyName="income" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="age" msprop:design-time-name="1c67bbcb-8c79-4a2d-be40-08485142c5e7" msprop:DbColumnName="age" msprop:FriendlyName="age" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fruitveg" msprop:design-time-name="5d0833e0-e7d6-4acd-a5bd-5738ae6a5863" msprop:DbColumnName="fruitveg" msprop:FriendlyName="fruitveg" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="freshmeat" msprop:design-time-name="fab58519-50ec-4359-b123-989189f31aff" msprop:DbColumnName="freshmeat" msprop:FriendlyName="freshmeat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="dairy" msprop:design-time-name="0c6359d2-ab38-48b2-910e-05b2875d620d" msprop:DbColumnName="dairy" msprop:FriendlyName="dairy" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cannedveg" msprop:design-time-name="e44d6b17-de40-4712-a3da-8635aa07f021" msprop:DbColumnName="cannedveg" msprop:FriendlyName="cannedveg" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cannedmeat" msprop:design-time-name="67e82751-3002-4ca2-a37a-29df4318025d" msprop:DbColumnName="cannedmeat" msprop:FriendlyName="cannedmeat" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="frozenmeal" msprop:design-time-name="abb056f5-2906-4a88-b88f-4a2b734f67d6" msprop:DbColumnName="frozenmeal" msprop:FriendlyName="frozenmeal" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="beer" msprop:design-time-name="d78cfc72-6fc6-4cd8-ad72-38d334349ae7" msprop:DbColumnName="beer" msprop:FriendlyName="beer" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="wine" msprop:design-time-name="67a730e1-0259-4f3d-b399-469c0df30531" msprop:DbColumnName="wine" msprop:FriendlyName="wine" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="softdrink" msprop:design-time-name="cfe8b85c-57af-466b-91ff-9744f0c520b7" msprop:DbColumnName="softdrink" msprop:FriendlyName="softdrink" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fish" msprop:design-time-name="e78871d2-cdb3-46db-aa3d-02243df78a03" msprop:DbColumnName="fish" msprop:FriendlyName="fish" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="confectionery" msprop:design-time-name="1451aa52-9186-485f-a614-bdef6b7971c7" msprop:DbColumnName="confectionery" msprop:FriendlyName="confectionery" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Apriori xmlns="" />
+  </Schema>
+</DataSourceView>
